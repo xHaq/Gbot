@@ -7,10 +7,10 @@
 ##		DON'T ALLOW EDIT		##
 
 
+	date_default_timezone_set('Europe/Warsaw');
 	require_once("config.php");
 	require_once("src/ts3admin.class.php");
 	require_once("lib/function.php");
-	date_default_timezone_set('Europe/Warsaw');
 	define('OWNER', 'Gold122');
 	define('VERSION', '2.5');
 	define('PREFIX', '	:> ');
@@ -112,7 +112,6 @@
 							}
 						}
 					}
-				sleep(1);
 				}
 			}
 			else
